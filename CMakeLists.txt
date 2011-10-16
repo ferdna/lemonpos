@@ -1,5 +1,7 @@
 project(lemon)
 
+SET(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
+
 find_package(KDE4 REQUIRED)
 include (KDE4Defaults)
 include_directories( ${KDE4_INCLUDES} ${QT_INCLUDES} ${QT_QTSQL_INCLUDE_DIR})
